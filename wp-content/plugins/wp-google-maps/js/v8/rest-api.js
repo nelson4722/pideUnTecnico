@@ -102,9 +102,21 @@ jQuery(function($) {
 		if(!params)
 			params = {};
 		
-		params.beforeSend = function(xhr) {
+		var setRESTNonce = function(xhr) {
 			xhr.setRequestHeader('X-WP-Nonce', WPGMZA.restnonce);
 		};
+		
+		if(!params.beforeSend)
+			params.beforeSend = setRESTNonce;
+		else
+		{
+			var base = params.beforeSend;
+			
+			params.beforeSend = function(xhr) {
+				base(xhr);
+				setRESTNonce(xhr);
+			}
+		}
 		
 		if(!params.error)
 			params.error = function(xhr, status, message) {
@@ -113,8 +125,7 @@ jQuery(function($) {
 				
 				if(xhr.status == 414 && attemptedCompressedPathVariable)
 				{
-					console.log("Should retry request with POST method");
-					
+					// Fallback for HTTP 414 - Request too long with compressed requests
 					fallbackParams.method = "POST";
 					fallbackParams.useCompressedPathVariable = false;
 					
@@ -128,11 +139,16 @@ jQuery(function($) {
 		{
 			var compressedParams = $.extend({}, params);
 			var data = params.data;
+			var compressedRoute = route.replace(/\/$/, "") + "/base64" + this.compressParams(data);
+			var fullCompressedRoute = WPGMZA.RestAPI.URL + compressedRoute;
 			
+			compressedParams.method = "GET";
 			delete compressedParams.data;
 			
-			var compressedRoute = route + "/base64" + this.compressParams(data);
-			var fullCompressedRoute = WPGMZA.RestAPI.URL + compressedRoute;
+			if(params.cache === false)
+				compressedParams.data = {
+					skip_cache: 1
+				};
 			
 			if(compressedRoute.length < this.maxURLLength)
 			{
@@ -143,6 +159,7 @@ jQuery(function($) {
 			}
 			else
 			{
+				// Fallback for when URL exceeds predefined length limit
 				if(!WPGMZA.RestAPI.compressedPathVariableURLLimitWarningDisplayed)
 					console.warn("Compressed path variable route would exceed URL length limit");
 				
@@ -160,24 +177,5 @@ jQuery(function($) {
 		
 		nativeCallFunction.apply(this, arguments);
 	}
-	
-	/*$(window).on("load", function(event) {
-		
-		var arr = [];
-		
-		for(var i = 0; i < 2048; i++)
-			arr.push(Math.random());
-		
-		WPGMZA.restAPI.call("/test", {
-			
-			useCompressedPathVariable: true,
-			method: "POST",
-			data: {
-				test: arr
-			}
-			
-		});
-		
-	});*/
 	
 });

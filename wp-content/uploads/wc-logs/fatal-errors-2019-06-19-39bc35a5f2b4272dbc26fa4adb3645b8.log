@@ -20,3 +20,7 @@
 
 2019-06-19T02:58:52+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 266240 bytes) in C:\xampp\htdocs\pideUnTecnico\wp-includes\pomo\streams.php on line 113
 
+2019-06-19T04:49:53+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 266240 bytes) in C:\xampp\htdocs\pideUnTecnico\wp-includes\pomo\streams.php on line 113
+
+2019-06-19T05:31:00+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 32768 bytes) en C:\xampp\htdocs\pideUnTecnico\wp-content\plugins\woocommerce-admin\includes\api\class-wc-admin-rest-reports-products-controller.php en la línea 306
+
