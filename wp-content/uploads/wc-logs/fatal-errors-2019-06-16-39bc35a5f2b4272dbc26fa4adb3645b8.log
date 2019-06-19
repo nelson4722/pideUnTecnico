@@ -1,0 +1,58 @@
+2019-06-16T02:41:36+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 2621440 bytes) en C:\xampp\htdocs\pideUnTecnico\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php en la línea 264
+
+2019-06-16T02:41:43+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 2621440 bytes) en C:\xampp\htdocs\pideUnTecnico\wp-content\plugins\woocommerce\includes\wc-template-functions.php en la línea 2672
+
+2019-06-16T02:41:43+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 2621440 bytes) en C:\xampp\htdocs\pideUnTecnico\wp-content\plugins\woocommerce\includes\wc-template-functions.php en la línea 2672
+
+2019-06-16T02:41:44+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 2621440 bytes) en C:\xampp\htdocs\pideUnTecnico\wp-content\plugins\woocommerce\includes\wc-template-functions.php en la línea 2672
+
+2019-06-16T03:15:24+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 331776 bytes) in C:\xampp\htdocs\pideUnTecnico\wp-includes\pomo\streams.php on line 205
+
+2019-06-16T03:15:24+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 2621440 bytes) en C:\xampp\htdocs\pideUnTecnico\wp-content\plugins\woocommerce\includes\wc-template-functions.php en la línea 3012
+
+2019-06-16T03:15:25+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 331776 bytes) in C:\xampp\htdocs\pideUnTecnico\wp-includes\pomo\streams.php on line 205
+
+2019-06-16T03:17:49+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 32768 bytes) en C:\xampp\htdocs\pideUnTecnico\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-notices.php en la línea 341
+
+2019-06-16T03:18:06+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 32768 bytes) en C:\xampp\htdocs\pideUnTecnico\wp-admin\includes\misc.php en la línea 1888
+
+2019-06-16T03:18:21+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 32768 bytes) en C:\xampp\htdocs\pideUnTecnico\wp-admin\includes\media.php en la línea 3202
+
+2019-06-16T03:18:57+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 8192 bytes) en C:\xampp\htdocs\pideUnTecnico\wp-admin\includes\media.php en la línea 2394
+
+2019-06-16T03:20:33+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 2621440 bytes) en C:\xampp\htdocs\pideUnTecnico\wp-content\plugins\woocommerce\includes\wc-template-functions.php en la línea 2183
+
+2019-06-16T03:20:43+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 266240 bytes) in C:\xampp\htdocs\pideUnTecnico\wp-includes\pomo\streams.php on line 113
+
+2019-06-16T03:21:23+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 266240 bytes) in C:\xampp\htdocs\pideUnTecnico\wp-includes\pomo\streams.php on line 113
+
+2019-06-16T03:21:24+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 20480 bytes) en C:\xampp\htdocs\pideUnTecnico\wp-includes\pomo\translations.php en la línea 102
+
+2019-06-16T03:23:07+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 266240 bytes) in C:\xampp\htdocs\pideUnTecnico\wp-includes\pomo\streams.php on line 113
+
+2019-06-16T03:26:41+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 266240 bytes) in C:\xampp\htdocs\pideUnTecnico\wp-includes\pomo\streams.php on line 113
+
+2019-06-16T03:26:41+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 266240 bytes) in C:\xampp\htdocs\pideUnTecnico\wp-includes\pomo\streams.php on line 113
+
+2019-06-16T03:26:41+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 266240 bytes) in C:\xampp\htdocs\pideUnTecnico\wp-includes\pomo\streams.php on line 113
+
+2019-06-16T03:26:41+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 266240 bytes) in C:\xampp\htdocs\pideUnTecnico\wp-includes\pomo\streams.php on line 113
+
+2019-06-16T03:26:41+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 266240 bytes) in C:\xampp\htdocs\pideUnTecnico\wp-includes\pomo\streams.php on line 113
+
+2019-06-16T03:26:41+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 266240 bytes) in C:\xampp\htdocs\pideUnTecnico\wp-includes\pomo\streams.php on line 113
+
+2019-06-16T03:26:41+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 266240 bytes) in C:\xampp\htdocs\pideUnTecnico\wp-includes\pomo\streams.php on line 113
+
+2019-06-16T03:26:41+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 266240 bytes) in C:\xampp\htdocs\pideUnTecnico\wp-includes\pomo\streams.php on line 113
+
+2019-06-16T03:27:04+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 32768 bytes) en C:\xampp\htdocs\pideUnTecnico\wp-content\themes\storefront\inc\woocommerce\storefront-woocommerce-template-functions.php en la línea 463
+
+2019-06-16T07:02:54+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 270336 bytes) in C:\xampp\htdocs\pideUnTecnico\wp-includes\pomo\streams.php on line 205
+
+2019-06-16T07:03:00+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 131072 bytes) en C:\xampp\htdocs\pideUnTecnico\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-assets.php en la línea 290
+
+2019-06-16T08:09:51+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 32768 bytes) en C:\xampp\htdocs\pideUnTecnico\wp-admin\includes\file.php en la línea 1288
+
+2019-06-16T08:12:03+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 266240 bytes) in C:\xampp\htdocs\pideUnTecnico\wp-includes\pomo\streams.php on line 113
+
