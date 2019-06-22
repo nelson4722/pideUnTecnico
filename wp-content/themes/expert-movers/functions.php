@@ -215,15 +215,6 @@ function expert_movers_sanitize_choices( $input, $setting ) {
     }
 }
 
-//footer Link
-define('EXPERT_MOVERS_CREDIT','https://www.luzuk.com/','expert-movers');
-
-if ( ! function_exists( 'expert_movers_credit' ) ) {
-	function expert_movers_credit(){
-		echo "<a href=".esc_url(EXPERT_MOVERS_CREDIT)." target='_blank'>".esc_html__('Luzuk','expert-movers')."</a>";
-	}
-}
-
 /* Excerpt Limit Begin */
 function expert_movers_string_limit_words($string, $word_limit) {
 	$words = explode(' ', $string, ($word_limit + 1));

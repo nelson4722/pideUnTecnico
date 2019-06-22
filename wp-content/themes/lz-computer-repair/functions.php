@@ -220,7 +220,7 @@ define('LZ_COMPUTER_REPAIR_CREDIT','https://www.luzuk.com/','lz-computer-repair'
 
 if ( ! function_exists( 'lz_computer_repair_credit' ) ) {
 	function lz_computer_repair_credit(){
-		echo "<a href=".esc_url(LZ_COMPUTER_REPAIR_CREDIT)." target='_blank'>".esc_html__('Luzuk','lz-computer-repair')."</a>";
+		echo "<a href=".esc_url(LZ_COMPUTER_REPAIR_CREDIT)." target='_blank'>".esc_html__('','lz-computer-repair')."</a>";
 	}
 }
 

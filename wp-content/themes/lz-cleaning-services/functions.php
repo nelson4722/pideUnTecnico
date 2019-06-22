@@ -215,15 +215,6 @@ function lz_cleaning_services_sanitize_choices( $input, $setting ) {
     }
 }
 
-//footer Link
-define('LZ_CLEANING_SERVICES_CREDIT','https://www.luzuk.com/','lz-cleaning-services');
-
-if ( ! function_exists( 'lz_cleaning_services_credit' ) ) {
-	function lz_cleaning_services_credit(){
-		echo "<a href=".esc_url(LZ_CLEANING_SERVICES_CREDIT)." target='_blank'>".esc_html__('Luzuk','lz-cleaning-services')."</a>";
-	}
-}
-
 /* Excerpt Limit Begin */
 function lz_cleaning_services_string_limit_words($string, $word_limit) {
 	$words = explode(' ', $string, ($word_limit + 1));
