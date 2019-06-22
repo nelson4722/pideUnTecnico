@@ -13,7 +13,7 @@ get_header(); ?>
 
 	<header class="page-header">
 		<?php if ( have_posts() ) : ?>
-			<h1 class="search-title"><?php /* translators: %s: search term */ printf( esc_html__( 'Search Results for: %s','lz-computer-repair'), '<span>' . esc_html( get_search_query() ) . '</span>' ); ?></h1>
+			<h1 class="search-title"><?php /* translators: %s: search term */ printf( esc_html__( 'Resultados de búsqueda para: %s','lz-computer-repair'), '<span>' . esc_html( get_search_query() ) . '</span>' ); ?></h1>
 		<?php else : ?>
 			<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'lz-computer-repair' ); ?></h1>
 		<?php endif; ?>
