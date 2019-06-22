@@ -1,0 +1,99 @@
+#customize-controls .control-section-one-login-business .accordion-section-title:hover,
+#customize-controls .control-section-one-login-business .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-one-login-business .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+
+.rtl .control-section-one-login-business .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+
+
+
+
+/*-------------*/
+.one-login-business-themeinfo {
+	padding: 10px;
+	border-radius: 3px;
+	background: #fff;
+	border: solid 5px #000;
+}
+
+.one-login-business-themeinfo .upsell-pro-label {
+	margin-right: 10px;
+	padding: 2px 6px 2px 7px;
+	border-radius: 3px;
+	color: #fff;
+	background: #70b908;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 0.1px;
+	text-transform: uppercase;
+}
+
+.one-login-business-themeinfo-features li {
+    padding: 8px 0;
+    font-size: 15px;
+    color: #000;
+    border-bottom: solid 1px #ccc;
+    line-height: 25px;
+}
+
+.one-login-business-themeinfo-features li:last-child {
+	margin-bottom: 28px;
+}
+
+.one-login-business-themeinfo .button {
+	width: 100%;
+	margin-right: 21px;
+	text-align: center;
+	letter-spacing: 0.2px;
+	box-shadow: none;
+	text-shadow: none;
+	background: #70b908;
+	border: none;
+	font-size: 15px;
+}
+.one-login-business-themeinfo .button:hover{
+	background: #000;
+}
+
+.one-login-business-themeinfo hr {
+	margin-top: 22px;
+	margin-bottom: 16px;
+}
+
+.one-login-business-themeinfo-feature-list li:before {
+	line-height: 37px;
+}
+
+.one-login-business-themeinfo-feature-list li {
+	margin-bottom: 6px;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 22px;
+}
+
+.one-login-business-themeinfo-feature-list li:last-child {
+	margin-bottom: 0;
+}
+
+.frontpage-sections-upsell {
+	padding: 10px 10px 11px 14px;
+}
+
+.upsell-pro-label:before {
+	content: "pro";
+}
+
+a.button.button-secondary.alignright {
+    background: #70b908;
+    color: #fff;
+    border: solid 1px #000;
+}
