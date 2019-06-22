@@ -70,3 +70,9 @@ Stack trace:
 #7 C:\xampp\htdocs\pideuntecnico\wp-content\themes\lz-computer-repair\404.php(31): get_footer()
 # en C:\xampp\htdocs\pideuntecnico\wp-content\themes\lz-computer-repair\template-parts\footer\site-info.php en la línea 13
 
+2019-06-22T22:22:09+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 32768 bytes) en C:\xampp\htdocs\pideuntecnico\wp-admin\includes\template.php en la línea 770
+
+2019-06-22T22:41:09+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 32768 bytes) en C:\xampp\htdocs\pideuntecnico\wp-content\plugins\woocommerce-admin\includes\api\class-wc-admin-rest-reports-taxes-stats-controller.php en la línea 338
+
+2019-06-22T22:56:15+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 32768 bytes) en C:\xampp\htdocs\pideuntecnico\wp-admin\custom-header.php en la línea 984
+
