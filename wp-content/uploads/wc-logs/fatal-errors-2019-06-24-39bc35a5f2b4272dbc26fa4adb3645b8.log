@@ -6,3 +6,5 @@
 
 2019-06-24T01:44:20+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 331776 bytes) in C:\xampp\htdocs\pideuntecnico\wp-includes\pomo\streams.php on line 205
 
+2019-06-24T06:09:25+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 20480 bytes) en C:\xampp\htdocs\pideuntecnico\wp-includes\meta.php en la línea 952
+
