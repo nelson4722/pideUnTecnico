@@ -26169,7 +26169,7 @@ msgid "Change address"
 msgstr ""
 
 #: templates/cart/cart-shipping.php:54
-msgid "Shipping options will be updated during checkout."
+msgid "Las opciones de envío serán actualizadas durante el pago."
 msgstr ""
 
 #: templates/cart/cart-shipping.php:61
